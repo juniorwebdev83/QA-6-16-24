@@ -1,0 +1,18 @@
+{
+  "name": "elevateaipythonsdk-main",
+  "version": "1.0.0",
+  "description": "Python SDK for interacting with ElevateAI API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "request": "^2.88.2",
+    "cors": "^2.8.5"
+  }
+}

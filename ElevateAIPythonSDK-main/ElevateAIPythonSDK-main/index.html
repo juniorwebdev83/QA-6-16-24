@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audio Upload and Transcription</title>
+    <title>Audio Upload</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Upload Audio for Transcription</h1>
         <input type="file" id="audioFile" accept="audio/*">
-        <button onclick="uploadAudio()">Upload and Transcribe</button>
+        <button onclick="uploadAudio()">Upload</button>
+        <div id="loading" class="hidden">Loading...</div>
         <div id="status"></div>
         <div id="transcription"></div>
+        <div id="error" class="hidden"></div>
     </div>
     <script src="script.js"></script>
 </body>
